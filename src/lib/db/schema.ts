@@ -1,4 +1,4 @@
-import { integer,pgEnum,serial,text,timestamp,varchar,PgTable, pgTable } from "drizzle-orm/pg-core";
+import { integer,pgEnum,serial,text,timestamp,varchar, pgTable } from "drizzle-orm/pg-core";
 
 export const userSystemEnum = pgEnum("user-system_enum",["system","user"]);
 
